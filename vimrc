@@ -1,7 +1,6 @@
 syntax on                                                                                                                                                                                                                       
 packloadall                                                                                                                                                                                                                     
 colorscheme palenight                                                                                                                                                                                                           
-let g:ycm_global_ycm_extra_conf = '~/.vim/pack/plugins/start/YouCompleteMe/.ycm_extra_conf.py'                                                                                                                                  
                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                 
 " Some basic defaults.                                                                                                                                                                                                          
