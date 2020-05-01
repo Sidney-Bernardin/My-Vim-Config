@@ -1,10 +1,20 @@
+#!/bin/bash
+
+
+# Create the .vim directory.
 cd
-cd -p .vim/pack/plugins/start
+mkdir -p .vim/pack/plugins/start
 
-sudo git clone https://github.com/preservim/nerdtree.git &&
-sudo git clone https://github.com/drewtempelmeyer/palenight.vims &&
-sudo git clone https://github.com/ervandew/supertab &&
-sudo git clone https://github.com/calviken/vim-gdscript3 &&
-sudo git clone https://github.com/kiteco/vim-plugin &&
 
+# 'git clone' all of the the plugins.
+cd .vim/pack/plugins/start
+git clone https://github.com/preservim/nerdtree.git
+git clone https://github.com/drewtempelmeyer/palenight.vim
+git clone https://github.com/ervandew/supertab
+git clone https://github.com/calviken/vim-gdscript3
+git clone https://github.com/kiteco/vim-plugin
+
+
+# Done!
+cd
 echo Done!
