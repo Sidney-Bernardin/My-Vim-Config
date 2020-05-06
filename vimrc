@@ -35,3 +35,13 @@ nnoremap <leader>h :split<CR>
                                                                                                                                                                                                                                 
 nnoremap <silent><leader>+ :vertical resize +5<CR>                                                                                                                                                                              
 nnoremap <silent><leader>- :vertical resize -5<CR>
+
+function g:ToggleNuMode()
+    if (&rnu == 1)
+        set norelativenumber
+        set number
+    else
+        set relativenumber
+    endif
+endfunc
+nnoremap <leader>n :call g:ToggleNuMode()<CR>
