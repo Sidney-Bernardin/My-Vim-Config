@@ -1,7 +1,7 @@
 # My-Vim-Config
 
 ### Installation!
-Requires Node.js v4+ to run.
+Requires vim 8+
 
 Copy and past this script into your terminal.
 ```
