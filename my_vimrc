@@ -42,6 +42,10 @@ nnoremap <leader>h :split<CR>
 nnoremap <silent><leader>+ :vertical resize +5<CR>
 nnoremap <silent><leader>- :vertical resize -5<CR>
 
+inoremap (<CR> (<CR>)<C-c>O
+inoremap {<CR> {<CR>}<C-c>O
+inoremap [<CR> [<CR>]<C-c>O
+
 function g:ToggleNuMode()
     if (&rnu == 1)
         set norelativenumber
