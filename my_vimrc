@@ -57,5 +57,5 @@ nnoremap <leader>n :call g:ToggleNuMode()<CR>
 
 " =====
 " Everything NERDTree!
-nnoremap <leader>q :NERDTreeFind<CR>
-nnoremap <leader>qq :NERDTreeToggle<CR>
+nnoremap <leader>qq :NERDTreeFind<CR>
+nnoremap <leader>q :NERDTreeToggle<CR>
