@@ -1,6 +1,6 @@
 # My-Vim-Config
 
-### Installation!
+### Installa Plugins!
 Requires vim 8+
 
 Copy and past this script into your terminal.
