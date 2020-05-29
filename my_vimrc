@@ -33,8 +33,8 @@ nnoremap <leader><Down> :wincmd j<CR>
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>h :split<CR>
 
-nnoremap <silent><leader><Up> :move -2<CR>
-nnoremap <silent><leader><Down> :move +1<CR>
+nnoremap <silent><leader><Up><Up> :move -2<CR>
+nnoremap <silent><leader><Down><Down> :move +1<CR>
 
 nnoremap <silent><leader>+ :vertical resize +5<CR>
 nnoremap <silent><leader>- :vertical resize -5<CR>
