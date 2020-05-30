@@ -39,10 +39,6 @@ nnoremap <silent><leader><Down><Down> :move +1<CR>
 nnoremap <silent><leader>+ :vertical resize +5<CR>
 nnoremap <silent><leader>- :vertical resize -5<CR>
 
-inoremap (<CR> (<CR>)<C-c>O
-inoremap {<CR> {<CR>}<C-c>O
-inoremap [<CR> [<CR>]<C-c>O
-
 function g:ToggleNuMode()
     if (&rnu == 1)
         set norelativenumber
@@ -59,3 +55,25 @@ nnoremap <leader>n :call g:ToggleNuMode()<CR>
 " Everything NERDTree!
 nnoremap <leader>qq :NERDTreeFind<CR>
 nnoremap <leader>q :NERDTreeToggle<CR>
+
+
+
+" =====
+" Simple auto completion for golang.
+" As for python, I use Kite which
+" works out of the box.
+inoremap (<CR> (<CR>)<C-c>O
+inoremap {<CR> {<CR>}<C-c>O
+inoremap [<CR> [<CR>]<C-c>O
+
+function! OpenCompletion()
+    if &filetype ==# 'go'
+
+        if !pumvisible() && ((v:char >= 'a' && v:char <= 'z') || (v:char >= 'A' && v:char <= 'Z'))  
+            call feedkeys("\<C-x>\<C-o>", "n")
+        endif
+    
+    endif
+endfunction
+
+autocmd InsertCharPre * call OpenCompletion()
