@@ -19,6 +19,7 @@ set noswapfile
 set nobackup
 set incsearch
 set background=dark
+set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
 
 
@@ -64,7 +65,8 @@ nnoremap <leader>q :NERDTreeToggle<CR>
 
 
 " =====
-" Simple auto completion for golang.
+" Activate auto completion for golang.
+" 
 " Be sure to have vim-go instaled.
 " As for python, I use Kite which
 " works out of the box.
