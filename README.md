@@ -13,5 +13,5 @@ git clone https://github.com/drewtempelmeyer/palenight.vim
 git clone https://github.com/ervandew/supertab.git
 git clone https://github.com/calviken/vim-gdscript3.git
 git clone https://github.com/kiteco/vim-plugin.git
-git clone https://github.com/mattn/vim-goimports.git
+git clone https://github.com/fatih/vim-go.git
 ```
