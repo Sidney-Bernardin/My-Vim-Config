@@ -2,9 +2,9 @@
 
 ### Install!
 Requires vim 8+
-Be sure to copy the .vimrc
 
-Copy and past this script into your terminal.
+1) Copy and past the .vimrc
+2) Copy and past this script into your terminal.
 ```
 cd
 sudo mkdir .vim/pack/plugins/start
