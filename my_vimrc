@@ -69,13 +69,10 @@ nnoremap <leader>q :NERDTreeToggle<CR>
 " As for python, I use Kite which
 " works out of the box.
 function! OpenCompletion()
-    if &filetype ==# 'go'
-
-        if !pumvisible() && ((v:char >= 'a' && v:char <= 'z') || (v:char >= 'A' && v:char <= 'Z'))  
-            call feedkeys("\<C-x>\<C-o>", "n")
-        endif
-    
+    if !pumvisible() && ((v:char >= 'a' && v:char <= 'z') || (v:char >= 'A' && v:char <= 'Z'))  
+        call feedkeys("\<C-x>\<C-o>", "n")
     endif
 endfunction
 
-autocmd InsertCharPre * call OpenCompletion()
+au BufRead,BufNewFile *.go
+    \ au autocmd InsertCharPre * call OpenCompletion()
