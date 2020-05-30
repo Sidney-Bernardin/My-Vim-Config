@@ -1,6 +1,7 @@
 syntax on
 packloadall
 colorscheme palenight
+filetype plugin on
 
 
 
@@ -60,6 +61,7 @@ nnoremap <leader>q :NERDTreeToggle<CR>
 
 " =====
 " Simple auto completion for golang.
+" Be sure to have vim-go instaled.
 " As for python, I use Kite which
 " works out of the box.
 inoremap (<CR> (<CR>)<C-c>O
