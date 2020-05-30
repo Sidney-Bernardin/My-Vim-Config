@@ -40,6 +40,10 @@ nnoremap <silent><leader><Down><Down> :move +1<CR>
 nnoremap <silent><leader>+ :vertical resize +5<CR>
 nnoremap <silent><leader>- :vertical resize -5<CR>
 
+inoremap (<CR> (<CR>)<C-c>O
+inoremap {<CR> {<CR>}<C-c>O
+inoremap [<CR> [<CR>]<C-c>O
+
 function g:ToggleNuMode()
     if (&rnu == 1)
         set norelativenumber
@@ -64,10 +68,6 @@ nnoremap <leader>q :NERDTreeToggle<CR>
 " Be sure to have vim-go instaled.
 " As for python, I use Kite which
 " works out of the box.
-inoremap (<CR> (<CR>)<C-c>O
-inoremap {<CR> {<CR>}<C-c>O
-inoremap [<CR> [<CR>]<C-c>O
-
 function! OpenCompletion()
     if &filetype ==# 'go'
 
