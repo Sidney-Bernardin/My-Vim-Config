@@ -4,7 +4,7 @@
 Uses vim 8+
 
 1) Copy and past the .vimrc
-2) Copy and past the following script into your Linux command line.
+2) Copy and past the following script into your Linux command line to install my favorite plugins.
 ```
 cd
 sudo mkdir .vim/pack/plugins/start
