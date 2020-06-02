@@ -73,12 +73,3 @@ function g:ToggleNuMode()
     endif
 endfunc
 nnoremap <leader>n :call g:ToggleNuMode()<CR>
-
-
-
-" ============================================================================
-" Everything NERDTree!
-
-" Primery way I open and close NERDTree.
-nnoremap <leader>qq :NERDTreeFind<CR>
-nnoremap <leader>q :NERDTreeToggle<CR>
