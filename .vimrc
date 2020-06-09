@@ -26,7 +26,7 @@ set colorcolumn=80
 
 
 " ============================================================================
-" Keymappings and leader key.
+" General keymappings and leader key.
 
 " Leader-key!
 let mapleader=" "
