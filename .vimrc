@@ -73,3 +73,9 @@ function g:ToggleNuMode()
     endif
 endfunc
 nnoremap <leader>n :call g:ToggleNuMode()<CR>
+
+
+" ============================================================================
+" vim-go
+
+let g:go_fmt_command = "goimports"
