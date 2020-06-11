@@ -7,7 +7,7 @@ Uses vim 8+
 2) Copy and past the following script into your Linux command line to install my favorite plugins.
 ```
 cd
-sudo mkdir .vim/pack/plugins/start
+sudo mkdir -p .vim/pack/plugins/start
 cd .vim/pack/plugins/start
 git clone https://github.com/justinmk/vim-dirvish.git
 git clone https://github.com/kristijanhusak/vim-dirvish-git.git
