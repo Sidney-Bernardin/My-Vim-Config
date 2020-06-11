@@ -15,4 +15,5 @@ sudo git clone https://github.com/drewtempelmeyer/palenight.vim
 sudo git clone https://github.com/calviken/vim-gdscript3.git
 sudo git clone https://github.com/kiteco/vim-plugin.git
 sudo git clone https://github.com/fatih/vim-go.git
+cd
 ```
