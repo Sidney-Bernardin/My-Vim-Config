@@ -34,23 +34,9 @@ let mapleader=" "
 " Quick save.
 noremap <leader>s :w<CR>
 
-" Switch windows.
-nnoremap <leader><Left> :wincmd h<CR>
-nnoremap <leader><Right> :wincmd l<CR>
-nnoremap <leader><Up> :wincmd k<CR>
-nnoremap <leader><Down> :wincmd j<CR>
-
-" Split window.
-nnoremap <leader>v :vsplit<CR>
-nnoremap <leader>h :split<CR>
-
-" Resize window.
-nnoremap <leader>+ :vertical resize +5<CR>
-nnoremap <leader>- :vertical resize -5<CR>
-
 " Move line up or down.
-nnoremap <leader><Up><Up> :move -2<CR>
-nnoremap <leader><Down><DOWN> :move +1<CR>
+nnoremap <leader><Up> :move -2<CR>
+nnoremap <leader><Down> :move +1<CR>
 
 " Auto complete for {}, (), [].
 inoremap (<CR> (<CR>)<C-c>O
