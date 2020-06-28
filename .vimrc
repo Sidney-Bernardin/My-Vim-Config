@@ -22,6 +22,7 @@ set background=dark
 set relativenumber
 set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
+set clipboard=unnamedplus
 
 
 
