@@ -23,12 +23,11 @@ set relativenumber
 set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
 set clipboard=unnamedplus
-set timeoutlen=200
 
 
 
 " ============================================================================
-" General keymappings and leader key.
+" Keymappings and leader key.
 
 " Leader-key!
 let mapleader=" "
@@ -37,8 +36,8 @@ let mapleader=" "
 noremap <leader>s :w<CR>
 
 " Move line up or down.
-nnoremap <leader><Up> :move -2<CR>
-nnoremap <leader><Down> :move +1<CR>
+nnoremap <leader>= :move -2<CR>
+nnoremap <leader>- :move +1<CR>
 
 " Auto complete for {}, (), [].
 inoremap (<CR> (<CR>)<C-c>O
@@ -51,16 +50,6 @@ inoremap [<CR> [<CR>]<C-c>O
 " works out of the box.
 inoremap <C-l> <C-x><C-o>
 
-" Toggle relative number modes quickly.
-function g:ToggleNuMode()
-    if (&rnu == 1)
-        set norelativenumber
-        set number
-    else
-        set relativenumber
-    endif
-endfunc
-nnoremap <leader>n :call g:ToggleNuMode()<CR>
 
 
 " ============================================================================
