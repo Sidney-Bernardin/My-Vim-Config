@@ -23,6 +23,7 @@ set relativenumber
 set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
 set clipboard=unnamedplus
+set timeoutlen=200
 
 
 
