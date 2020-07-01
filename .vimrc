@@ -45,12 +45,6 @@ inoremap (<CR> (<CR>)<C-c>O
 inoremap {<CR> {<CR>}<C-c>O
 inoremap [<CR> [<CR>]<C-c>O
 
-" Quick omnitfunc completion.
-" Be sure to have vim-go instaled.
-" As for python, I use Kite which 
-" works out of the box.
-inoremap <C-l> <C-x><C-o>
-
 
 
 " ============================================================================
