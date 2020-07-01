@@ -23,6 +23,8 @@ set relativenumber
 set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
 set clipboard=unnamedplus
+set completeopt=menuone,preview
+set shortmess+=c
 
 
 
@@ -49,6 +51,14 @@ inoremap [<CR> [<CR>]<C-c>O
 " As for python, I use Kite which 
 " works out of the box.
 inoremap <C-l> <C-x><C-o>
+
+" If the Omni-Completion tip
+" window is open, close it.
+"
+" These lines close it on movement
+" in insert mode or when leaving insert mode
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 
 
