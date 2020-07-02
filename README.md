@@ -10,7 +10,6 @@ cd
 sudo mkdir -p .vim/pack/plugins/start
 cd .vim/pack/plugins/start
 sudo git clone https://github.com/justinmk/vim-dirvish.git
-sudo git clone https://github.com/kristijanhusak/vim-dirvish-git.git
 sudo git clone https://github.com/drewtempelmeyer/palenight.vim
 sudo git clone https://github.com/calviken/vim-gdscript3.git
 sudo git clone https://github.com/kiteco/vim-plugin.git
