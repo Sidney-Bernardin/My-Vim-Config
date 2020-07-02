@@ -37,8 +37,8 @@ let mapleader=" "
 noremap <leader>s :w<CR>
 
 " Move line up or down.
-nnoremap <leader>= :move -2<CR>
-nnoremap <leader>- :move +1<CR>
+nnoremap <leader>- :move -2<CR>
+nnoremap <leader>= :move +1<CR>
 
 " Auto complete for {}, (), [].
 inoremap (<CR> (<CR>)<C-c>O
