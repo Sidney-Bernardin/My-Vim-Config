@@ -51,3 +51,10 @@ inoremap [<CR> [<CR>]<C-c>O
 " vim-go
 
 let g:go_fmt_command = "goimports"
+
+
+
+" ============================================================================
+" vim-highlightedyank
+
+let g:highlightedyank_highlight_duration = 150
