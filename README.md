@@ -15,7 +15,6 @@ sudo git clone https://github.com/calviken/vim-gdscript3.git
 sudo git clone https://github.com/kiteco/vim-plugin.git
 sudo git clone https://github.com/fatih/vim-go.git
 sudo git clone https://github.com/unblevable/quick-scope
-sudo git clone https://github.com/roxma/simpleautocomplpop
 sudo git clone https://github.com/machakann/vim-highlightedyank
 sudo git clone https://github.com/mattn/emmet-vim.git
 cd
