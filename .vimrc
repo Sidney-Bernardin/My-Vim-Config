@@ -50,7 +50,18 @@ inoremap [<CR> [<CR>]<C-c>O
 " ============================================================================
 " vim-go
 
+" Auto import.
 let g:go_fmt_command = "goimports"
+
+" Testing commands.
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
+autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
+
+autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
+autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
+
+" Go info.
+autocmd FileType go nmap <Leader>i <Plug>(go-info)
 
 
 
