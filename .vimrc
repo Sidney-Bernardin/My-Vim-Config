@@ -70,6 +70,13 @@ autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit'
 " Go info.
 autocmd FileType go nmap <Leader>i  <Plug>(go-info)
 
+" Highlighting.
+let g:go_highlight_types = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+
 
 
 " ============================================================================
