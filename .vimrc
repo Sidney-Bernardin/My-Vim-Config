@@ -28,6 +28,14 @@ set shortmess+=c
 
 
 " ============================================================================
+" Tab sizes for differnt files.
+autocmd FileType html setlocal ts=2 sts=2 sw=2
+autocmd FileType gohtml setlocal ts=2 sts=2 sw=2
+autocmd FileType vue setlocal ts=2 sts=2 sw=2
+
+
+
+" ============================================================================
 " Keymappings and leader key.
 
 " Leader-key!
