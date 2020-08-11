@@ -18,6 +18,5 @@ sudo git clone https://github.com/unblevable/quick-scope
 sudo git clone https://github.com/machakann/vim-highlightedyank
 sudo git clone https://github.com/mattn/emmet-vim.git
 sudo git clone https://github.com/posva/vim-vue.git
-sudo git clone https://github.com/ajh17/VimCompletesMe.git
 cd
 ```
