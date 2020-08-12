@@ -88,6 +88,12 @@ let g:go_highlight_extra_types = 1
 
 
 " ============================================================================
+" Coc
+
+" let g:coc_disable_startup_warning = 1
+
+
+" ============================================================================
 " vim-highlightedyank
 
 let g:highlightedyank_highlight_duration = 150
