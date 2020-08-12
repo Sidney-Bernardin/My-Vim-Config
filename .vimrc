@@ -1,3 +1,4 @@
+" let g:coc_disable_startup_warning = 1 " This line must be at the very top.
 filetype plugin on
 syntax on
 packloadall
@@ -77,14 +78,6 @@ autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit'
 
 " Go info.
 autocmd FileType go nmap <Leader>i  <Plug>(go-info)
-
-
-
-
-" ============================================================================
-" Coc
-
-" let g:coc_disable_startup_warning = 1
 
 
 
