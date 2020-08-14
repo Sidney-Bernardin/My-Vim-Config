@@ -1,4 +1,7 @@
 let g:coc_disable_startup_warning = 0 " This line must be at the very top.
+
+
+
 filetype plugin on
 syntax on
 packloadall
@@ -7,7 +10,7 @@ colorscheme palenight
 
 
 " ============================================================================
-" Some basic defaults.
+" Some basic stuff.
 set nu
 set ruler
 set cursorline
@@ -25,6 +28,11 @@ set omnifunc=syntaxcomplete#Complete
 set colorcolumn=80
 set clipboard=unnamedplus
 set shortmess+=c
+set background=dark
+
+" If tmux is giving you trouble, set these.
+" set t_Co=256set background=dark
+" set t_Co=256
 
 
 
