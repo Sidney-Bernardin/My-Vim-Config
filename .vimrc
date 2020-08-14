@@ -5,7 +5,7 @@ let g:coc_disable_startup_warning = 0 " This line must be at the very top.
 filetype plugin on
 syntax on
 packloadall
-colorscheme palenight
+colorscheme gruvbox
 
 
 
