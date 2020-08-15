@@ -32,7 +32,7 @@ sudo git clone https://github.com/kien/ctrlp.vim.git
 
 ### 3. Install Coc, this could get fishy.
 
-Make sure you have node 10.12+ installed.
+Make sure you have node 10.12+ installed.<br/>
 Make sure you have vim 8.0.4153+
 
 lets begin. 
@@ -41,6 +41,8 @@ lets begin.
 3. You might have to run something like ``` sudo chmod -R 777 /home/<user-name>/.vim``` to get the right permisions.
 4. ``` cd .vim/pack/coc/start```
 5. ```curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -```
+
+[Official install instructions for Coc.](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
 
 ---
 And thats my Vim configuration.
