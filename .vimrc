@@ -67,6 +67,11 @@ inoremap [<CR> [<CR>]<C-c>O
 " ============================================================================
 " vim-go
 
+" Disable vim-go :GoDef short cut (gd).
+" This is handled by LanguageClient
+" with Coc installed.
+let g:go_def_mapping_enabled = 0
+
 " Auto import.
 let g:go_fmt_command = "goimports"
 
@@ -86,6 +91,17 @@ autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit'
 
 " Go info.
 autocmd FileType go nmap <Leader>i  <Plug>(go-info)
+
+
+
+" ============================================================================
+" Coc
+
+" Remap keys for gotos.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 
 
