@@ -67,11 +67,6 @@ inoremap [<CR> [<CR>]<C-c>O
 " ============================================================================
 " vim-go
 
-" Disable vim-go :GoDef short cut (gd).
-" This is handled by LanguageClient
-" with Coc installed.
-let g:go_def_mapping_enabled = 0
-
 " Auto import.
 let g:go_fmt_command = "goimports"
 
