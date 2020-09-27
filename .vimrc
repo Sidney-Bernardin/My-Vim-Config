@@ -67,8 +67,8 @@ inoremap [<CR> [<CR>]<C-c>O
 " ============================================================================
 " vim-go
 
-" If coc-go is installed you should uncomment this line!
-" let g:go_def_mapping_enabled = 0
+" If coc-go is not installed you should set this to 1!
+let g:go_def_mapping_enabled = 0
 
 " Auto import.
 let g:go_fmt_command = "goimports"
