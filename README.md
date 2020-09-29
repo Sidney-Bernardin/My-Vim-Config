@@ -1,8 +1,9 @@
 # My-Vim-Config
 
-I use vim 8's native package manager for simplicity.
+
 
 ### 1. Install my favorite plugins.
+I use vim 8's native package manager for simplicity.
 ```
 cd
 
