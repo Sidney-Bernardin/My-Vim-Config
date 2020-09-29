@@ -30,6 +30,9 @@ set clipboard=unnamedplus
 set shortmess+=c
 set background=dark
 
+" If backspace is not working, set this.
+" set backspace=indent,eol,start
+
 " If tmux is giving you trouble, set these.
 " set t_Co=256set background=dark
 " set t_Co=256
