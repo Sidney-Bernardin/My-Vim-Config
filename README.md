@@ -21,6 +21,7 @@ sudo git clone https://github.com/unblevable/quick-scope.git
 sudo git clone https://github.com/justinmk/vim-dirvish.git
 sudo git clone https://github.com/machakann/vim-highlightedyank.git
 sudo git clone https://github.com/kien/ctrlp.vim.git
+sudo git clone https://github.com/posva/vim-vue.git
 ```
 
 ---
