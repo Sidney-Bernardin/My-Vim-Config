@@ -65,6 +65,9 @@ inoremap (<CR> (<CR>)<C-c>O
 inoremap {<CR> {<CR>}<C-c>O
 inoremap [<CR> [<CR>]<C-c>O
 
+" Greatest remap ever.
+vnoremap <leader>p "_dP
+
 
 
 " ============================================================================
