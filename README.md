@@ -45,20 +45,6 @@ lets begin.
 4. ``` cd .vim/pack/coc/start```
 5. ```curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -```
 
-This is my coc-config file.
-```json
-{
-    "python.jediEnabled": false,
-    "languageserver": {
-        "godot": {
-            "host": "127.0.0.1",
-            "filetypes": ["gdscript"],
-            "port": 6008
-        }
-    }
-}
-```
-
 [Official install instructions for Coc.](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
 
 ---
