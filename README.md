@@ -29,7 +29,7 @@ sudo git clone https://github.com/habamax/vim-godot.git
 
 ### 2. Install my .vimrc.
 
-[Just do it your self, put it in your vimrc.](https://github.com/Sidney-Bernardin/My-Vim-Config/blob/master/.vimrc)
+[Use my .vimrc if you want.](https://github.com/Sidney-Bernardin/My-Vim-Config/blob/master/.vimrc)
 
 ---
 
