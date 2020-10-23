@@ -1,0 +1,12 @@
+{
+    "python.jediEnabled": false,
+    
+    // This works well with https://github.com/habamax/vim-godot
+    "languageserver": {
+        "godot": {
+            "host": "127.0.0.1",
+            "filetypes": ["gdscript"],
+            "port": 6008
+        }
+    }
+}
