@@ -45,6 +45,8 @@ lets begin.
 4. ``` cd .vim/pack/coc/start```
 5. ```curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -```
 
+[These are the coc settings that I use.](https://github.com/Sidney-Bernardin/My-Vim-Config/coc-settings.json)
+
 [Official install instructions for Coc.](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
 
 ---
