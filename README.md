@@ -2,6 +2,12 @@
 
 
 
+# 0. Install vim.
+If you are using vim 8.2 or lower some of the plugins might not work.
+Its highly recommended that you install vim with https://www.vim.org/git.php .
+
+
+
 ### 1. Install my favorite plugins.
 I use vim 8's native package manager for simplicity.
 ```
