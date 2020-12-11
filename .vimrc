@@ -29,6 +29,7 @@ set colorcolumn=80
 set clipboard=unnamedplus
 set shortmess+=c
 set background=dark
+set pastetoggle=<F3>
 
 " If backspace is not working, set this.
 " set backspace=indent,eol,start
