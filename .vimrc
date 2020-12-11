@@ -60,11 +60,6 @@ noremap <leader>s :w<CR>
 nnoremap <leader>- :move -2<CR>
 nnoremap <leader>= :move +1<CR>
 
-" Auto complete for {}, (), [].
-inoremap (<CR> (<CR>)<C-c>O
-inoremap {<CR> {<CR>}<C-c>O
-inoremap [<CR> [<CR>]<C-c>O
-
 " Greatest remap ever.
 vnoremap <leader>p "_dP
 
@@ -100,6 +95,9 @@ autocmd FileType go nmap <Leader>i  <Plug>(go-info)
 
 " ============================================================================
 " Coc
+
+" Coc snippets.
+let g:coc_snippet_next = '<tab>'
 
 " Remap keys for gotos.
 nmap <silent> gd <Plug>(coc-definition)
