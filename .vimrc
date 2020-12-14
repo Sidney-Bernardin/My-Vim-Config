@@ -64,6 +64,10 @@ nnoremap <leader>= :move +1<CR>
 " Greatest remap ever.
 vnoremap <leader>p "_dP
 
+" Set some scrolloff toggles.
+nnoremap <Leader>zz :let &scrolloff=12-&scrolloff<CR>
+nnoremap <Leader>ZZ :let &scrolloff=999-&scrolloff<CR>
+
 
 
 " ============================================================================
