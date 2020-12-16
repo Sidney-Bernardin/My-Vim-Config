@@ -1,6 +1,4 @@
 {
-    "python.jediEnabled": false,
-    
     "languageserver": {
         "godot": {
             "host": "127.0.0.1",
