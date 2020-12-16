@@ -4,7 +4,7 @@
 
 ### 0. Install vim.
 If you are using vim 8.2 or lower some of the plugins might not work.
-I recommend that you install vim with https://www.vim.org/git.php .
+I recommend that you install vim like this https://www.vim.org/git.php .
 
 
 
