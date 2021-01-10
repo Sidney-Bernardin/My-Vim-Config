@@ -24,7 +24,7 @@ sudo git clone https://github.com/drewtempelmeyer/palenight.vim.git
 sudo git clone https://github.com/morhetz/gruvbox.git
 sudo git clone https://github.com/fatih/vim-go.git
 sudo git clone https://github.com/unblevable/quick-scope.git
-sudo git clone https://github.com/justinmk/vim-dirvish.git
+sudo git clone https://github.com/preservim/nerdtree.git
 sudo git clone https://github.com/machakann/vim-highlightedyank.git
 git clone https://github.com/junegunn/fzf.vim
 git clone https://github.com/junegunn/fzf
