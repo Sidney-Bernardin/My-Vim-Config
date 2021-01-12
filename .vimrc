@@ -67,20 +67,6 @@ nnoremap <Leader>ZZ :let &scrolloff=999-&scrolloff<CR>
 
 
 " ============================================================================
-" NERDTree
-" Start NERDTree, unless a file or session is specified, eg. vim -S session_file.vim.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTree | endif
-
-" Common remaps.
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-
-
-
-" ============================================================================
 " vim-go
 
 " If coc-go is not installed you should set this to 1!
