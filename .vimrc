@@ -109,6 +109,15 @@ nmap <silent> gr <Plug>(coc-references)
 
 
 " ============================================================================
+" Coc Prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
+
+
+" ============================================================================
 " vim-highlightedyank
 
 let g:highlightedyank_highlight_duration = 150
