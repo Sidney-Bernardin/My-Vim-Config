@@ -110,8 +110,11 @@ nmap <silent> gr <Plug>(coc-references)
 
 " ============================================================================
 " Coc Prettier
+
+" Setup Prettier command.
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
+" Remap keys for range format.
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
