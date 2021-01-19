@@ -30,6 +30,7 @@ git clone https://github.com/junegunn/fzf.vim
 git clone https://github.com/junegunn/fzf
 sudo git clone https://github.com/posva/vim-vue.git
 sudo git clone https://github.com/habamax/vim-godot.git
+sudo git clone https://github.com/jiangmiao/auto-pairs.git
 ```
 
 ---
