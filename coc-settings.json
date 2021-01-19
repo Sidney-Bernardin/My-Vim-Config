@@ -1,4 +1,6 @@
 {
+    "coc.preferences.formatOnSaveFiletypes": ["*"],
+    
     "languageserver": {
         "godot": {
             "host": "127.0.0.1",
