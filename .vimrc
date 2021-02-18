@@ -39,7 +39,8 @@ set pastetoggle=<F3>
 " ============================================================================
 " Tab sizes for differnt files.
 autocmd FileType html setlocal ts=2 sts=2 sw=2
-autocmd FileType js setlocal ts=2 sts=2 sw=2
+autocmd FileType vue setlocal ts=2 sts=2 sw=2
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2
 
 
 
