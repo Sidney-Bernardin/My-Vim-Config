@@ -106,17 +106,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-
-
-" ============================================================================
-" Coc Prettier
-
-" Setup Prettier command.
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
-" Remap keys for range format.
-vmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+" Confirm completion with enter.
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 
 
