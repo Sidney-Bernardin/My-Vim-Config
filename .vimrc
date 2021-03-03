@@ -115,3 +115,12 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " vim-highlightedyank
 
 let g:highlightedyank_highlight_duration = 150
+
+
+
+" ============================================================================
+" CommandlineComplete
+
+" Make CommandlineComplete feel more natural.
+cmap <c-p> <Plug>CmdlineCompleteBackward
+cmap <c-n> <Plug>CmdlineCompleteForward
