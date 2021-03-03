@@ -54,8 +54,8 @@ let mapleader=" "
 noremap <leader>s :w<CR>
 
 " Move line up or down.
-nnoremap <leader>- :move -2<CR>
-nnoremap <leader>= :move +1<CR>
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
 
 " Greatest remap ever.
 vnoremap <leader>p "_dP
