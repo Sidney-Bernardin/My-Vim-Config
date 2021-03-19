@@ -71,7 +71,9 @@ nnoremap <Leader>ZZ :let &scrolloff=999-&scrolloff<CR>
 
 " Basic remaps.
 nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 " Enable line numbers.
 let NERDTreeShowLineNumbers=1
