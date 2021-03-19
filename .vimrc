@@ -67,6 +67,19 @@ nnoremap <Leader>ZZ :let &scrolloff=999-&scrolloff<CR>
 
 
 " ============================================================================
+" NERDTree
+
+" Basic remaps.
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
+
+" Enable line numbers.
+let NERDTreeShowLineNumbers=1
+autocmd FileType nerdtree setlocal relativenumber
+
+
+
+" ============================================================================
 " vim-go
 
 " If coc-go is not installed you should set this to 1!
@@ -108,6 +121,16 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Confirm completion with enter.
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+
+
+" ============================================================================
+" FZF
+ 
+" Open quick.
+nnoremap <leader>f :FZF<CR>
+
+let $FZF_DEFAULT_OPTS='--reverse'
 
 
 
