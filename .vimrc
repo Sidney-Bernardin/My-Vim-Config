@@ -60,6 +60,10 @@ vnoremap K :m '<-2<CR>gv=gv
 " Greatest remap ever.
 vnoremap <leader>p "_dP
 
+" Quickfix list
+nnoremap <C-j> :cnext<CR>
+nnoremap <C-k> :cprev<CR>
+
 " Set some scrolloff toggles.
 nnoremap <Leader>zz :let &scrolloff=12-&scrolloff<CR>
 nnoremap <Leader>ZZ :let &scrolloff=999-&scrolloff<CR>
