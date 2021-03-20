@@ -37,7 +37,7 @@ set pastetoggle=<F3>
 
 
 " ============================================================================
-" Tab sizes for differnt files.
+" Tab sizes for differnt file types.
 autocmd FileType html setlocal ts=2 sts=2 sw=2
 autocmd FileType vue setlocal ts=2 sts=2 sw=2
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
@@ -60,7 +60,7 @@ vnoremap K :m '<-2<CR>gv=gv
 " Greatest remap ever.
 vnoremap <leader>p "_dP
 
-" Quickfix list
+" Quickfix list.
 nnoremap <C-j> :cnext<CR>
 nnoremap <C-k> :cprev<CR>
 
