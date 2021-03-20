@@ -83,6 +83,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let NERDTreeShowLineNumbers=1
 autocmd FileType nerdtree setlocal relativenumber
 
+" Open the existing NERDTree on each new tab.
+autocmd BufWinEnter * silent NERDTreeMirror
+
 
 
 " ============================================================================
