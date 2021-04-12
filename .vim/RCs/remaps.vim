@@ -1,0 +1,26 @@
+" Leader-key!
+let mapleader=" "
+
+" Quick save.
+noremap <leader>s :w<CR>
+
+" Window jumping.
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+
+" Window resize.
+nnoremap <silent><leader>+ :vertical resize =5<CR>
+nnoremap <silent><leader>- :vertical resize -5<CR>
+
+" Move line up or down.
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+" Greatest remap ever.
+vnoremap <leader>p "_dP
+
+" Quickfix list.
+nnoremap <C-j> :cnext<CR>
+nnoremap <C-k> :cprev<CR>
