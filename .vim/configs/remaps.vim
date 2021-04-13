@@ -24,3 +24,8 @@ vnoremap <leader>p "_dP
 " Quickfix list.
 nnoremap <C-j> :cnext<CR>
 nnoremap <C-k> :cprev<CR>
+
+" Nice...
+inoremap {<cr> {<cr>}<c-o>O
+inoremap [<cr> [<cr>]<c-o>O
+inoremap (<cr> (<cr>)<c-o>O
