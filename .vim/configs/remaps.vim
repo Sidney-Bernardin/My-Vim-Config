@@ -27,5 +27,3 @@ nnoremap <C-k> :cprev<CR>
 
 " Nice...
 inoremap {<cr> {<cr>}<c-o>O
-inoremap [<cr> [<cr>]<c-o>O
-inoremap (<cr> (<cr>)<c-o>O
