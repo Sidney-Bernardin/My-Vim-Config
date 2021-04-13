@@ -5,7 +5,7 @@ let g:go_def_mapping_enabled = 0
 let g:go_fmt_command = "goimports"
 
 " Quick compile.
-autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <leader>B  <Plug>(go-build)
 autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
 " Error checking.
