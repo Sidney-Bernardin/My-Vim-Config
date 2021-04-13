@@ -1,29 +1,26 @@
 call plug#begin('~/.vim/plugged')
 
+" What would I do without you.
 Plug 'morhetz/gruvbox'
-
-" Coc.
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Git.
-Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
-
-" FZF.
+" Search and replace.
+Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" Golang.
+" Git.
+Plug 'tpope/vim-fugitive'
+
+" Lanuage specific.
 Plug 'fatih/vim-go'
-
-" Vue.
 Plug 'posva/vim-vue'
-
-" Godot.
 Plug 'habamax/vim-godot'
 
-" Speed.
+" Other.
+Plug 'ap/vim-buftabline'
 Plug 'unblevable/quick-scope'
+Plug 'vim-airline/vim-airline'
 Plug 'machakann/vim-highlightedyank'
 
 call plug#end()
