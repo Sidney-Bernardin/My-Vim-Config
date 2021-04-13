@@ -1,4 +1,5 @@
 set background=dark
+set hidden
 set pastetoggle=<F3>
 set backspace=indent,eol,start
 set relativenumber
