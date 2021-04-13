@@ -4,6 +4,10 @@ let mapleader=" "
 " Quick save.
 noremap <leader>s :w<CR>
 
+" Buffer jumping.
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
+
 " Window jumping.
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
