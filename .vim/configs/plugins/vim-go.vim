@@ -9,6 +9,7 @@ autocmd FileType go nmap <leader>i  <Plug>(go-info)
 
 " GoDecls remap.
 autocmd FileType go nmap <leader>G :GoDecls<CR>
+autocmd FileType go nmap <leader>D :GoDeclsDir<CR>
 
 " Quick compile.
 autocmd FileType go nmap <leader>B  <Plug>(go-build)
