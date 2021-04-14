@@ -18,7 +18,6 @@ Plug 'posva/vim-vue'
 Plug 'habamax/vim-godot'
 
 " Other.
-Plug 'ap/vim-buftabline'
 Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'machakann/vim-highlightedyank'
