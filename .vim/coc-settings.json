@@ -1,4 +1,8 @@
 {
+    "diagnostic.errorSign": "E",
+    "diagnostic.warningSign": "W",
+    "diagnostic.infoSign": "I",
+    
     "coc.preferences.formatOnSaveFiletypes": ["*"],
     
     "languageserver": {
