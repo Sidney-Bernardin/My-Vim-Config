@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go'
 Plug 'posva/vim-vue'
 Plug 'habamax/vim-godot'
+Plug 'OmniSharp/omnisharp-vim'
 
 " Other.
 Plug 'unblevable/quick-scope'
