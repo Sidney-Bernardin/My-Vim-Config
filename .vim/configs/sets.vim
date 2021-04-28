@@ -17,6 +17,7 @@ set nobackup
 set incsearch
 set scrolloff=8
 set signcolumn=yes
+autocmd FileType cs set signcolumn=no
 set isfname+=@-@
 set cmdheight=1
 set updatetime=50
