@@ -31,3 +31,6 @@ nnoremap <C-k> :cprev<CR>
 
 " Nice...
 inoremap {<cr> {<cr>}<c-o>O
+
+" Center screen.
+nnoremap G Gzz
