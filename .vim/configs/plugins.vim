@@ -22,5 +22,6 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'machakann/vim-highlightedyank'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
