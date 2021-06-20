@@ -5,7 +5,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```
 
 ### Install COC.
-Make sure node 10.12+ is installed.
+Make sure node 10.12+ is installed. <br>
 Make sure vim 8.0.4153+ is installed.
 
 1. ```cd```
